@@ -4,6 +4,7 @@ import folium
 import pickle
 import sklearn
 from streamlit_folium import st_folium
+import os
 
 st.write("""
 # Tropical Cyclone Size Prediction         
@@ -11,7 +12,8 @@ Select your Latitude, Longitude, Pressure, and Wind Speed data to predict!
 """)
 
 # read the model
-model_file = 'tropical_cyclone_size/rf_regressor.pkl'
+path = os.path.dirname(__file__)
+model_file = path + '\\rf_regressor.pkl'
 model = pickle.load(open(model_file,'rb'))
 
 
