@@ -13,7 +13,7 @@ Select your Latitude, Longitude, Pressure, and Wind Speed data to predict!
 
 # read the model
 path = os.path.dirname(__file__)
-model_file = path + '\\rf_regressor.pkl'
+model_file = path + '/rf_regressor.pkl'
 model = pickle.load(open(model_file,'rb'))
 
 
