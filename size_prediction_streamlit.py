@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import folium
 import pickle
+import sklearn
 from streamlit_folium import st_folium
 
 st.write("""
