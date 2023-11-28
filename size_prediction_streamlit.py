@@ -7,7 +7,7 @@ from streamlit_folium import st_folium
 import os
 
 st.write("""
-# 🌪️Tropical Cyclone Size Prediction🌪️         
+# 🌪️Tropical Cyclone Size Prediction         
 Select your Latitude, Longitude, Pressure, and Wind Speed data to predict!
 """)
 
